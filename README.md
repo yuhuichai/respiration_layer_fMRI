@@ -15,7 +15,7 @@ Codes used in the article "Improving laminar fMRI specificity by reducing macrov
 
 (7) Script used to reconstruct SWI and QSM images based on the magnitude and phase image series of MT-3D-EPI volumes: https://github.com/yuhuichai/respiration_layer_fMRI/blob/main/swi_qsm.m It uses programs from SEPIA (https://doi.org/10.1016/j.neuroimage.2020.117611) and STI Suite (https://people.eecs.berkeley.edu/~chunlei.liu/software.html) toolboxs
 
-(8) Script used to segment veins and arteries from the MT-EPI averaged magnitude, QSM and SWI volumes: https://github.com/yuhuichai/respiration_layer_fMRI/blob/main/swi_vessel.m It uses programs developed by (Straub et al., 2022) (https://doi.org/10.1016/j.neuroimage.2022.118931).
+(8) Script used to segment veins and arteries from the MT-EPI averaged magnitude, QSM and SWI volumes: https://github.com/yuhuichai/respiration_layer_fMRI/blob/main/swi_vessel.m It uses programs developed by (Straub et al., 2022) (https://doi.org/10.1016/j.neuroimage.2022.118931). Script of vessel_seg_chai.m is modified from vessel_seg_loc.m in (Straub et al., 2022) and it is used to generate vessel segmentation with a low threshold strategy (vessel_seg2).
 
 (9) Script used to compute the respiration effect during a normal fMRI run (participants breathed naturally): https://github.com/yuhuichai/respiration_layer_fMRI/blob/main/censor_deep_breath.sh It uses multiple common programs from AFNI. 
 
